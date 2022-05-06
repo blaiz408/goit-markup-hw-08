@@ -1,0 +1,24 @@
+.logo {
+    font-family: var(--secondary-font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+}
+.header__logo {
+    margin-right: 92px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.header__logo_part {
+    color: var(--secondary-text-color-theme-light);
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 20px;
+}
+.footer-logo-part {
+    color: var(--primary-text-color-theme-dark);
+}

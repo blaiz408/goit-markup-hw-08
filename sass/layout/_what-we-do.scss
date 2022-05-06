@@ -1,0 +1,19 @@
+.service-list-item {
+    position: relative;
+}
+
+.service-list-description {
+    display: flex;
+    color: var(--primary-text-color-theme-dark);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 27px;
+    font-weight: 700;
+    line-height: 1.14;
+    background-color: rgba(47, 48, 58, 0.8);
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}

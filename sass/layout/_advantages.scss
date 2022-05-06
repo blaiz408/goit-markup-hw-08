@@ -1,0 +1,21 @@
+.advantages {
+    padding-bottom: 0;
+    --card-item: 4;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #f5f4fa;
+}
+
+.advantages__tittle {
+    color: var(--secondary-text-color-theme-light);
+}
+
+.advantages__description {
+    font-style: normal;
+}
