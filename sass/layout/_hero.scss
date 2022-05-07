@@ -1,16 +1,73 @@
 .hero {
     background-color: #2f303a;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)),
-        url(../img/bg.jpg);
+        rgba(47, 48, 58, 0.4)),
+        url(/img/hw8img/hero-img/mobile-hero-img.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero {
+                background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                        rgba(47, 48, 58, 0.4)),
+                    url(/img/hw8img/hero-img/mobile-hero-img@2x.jpg);
+            }
+    }
 }
+
 
 .hero-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+//  768+
+@media screen and (min-width:768px) {
+    .hero {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url(/img/hw8img/hero-img/tablet-hero-img.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url(/img/hw8img/hero-img/tablet-hero-img@2x.jpg);
+    }
+}
+}
+
+
+
+// 1200+
+
+@media screen and (min-width:1200px) {
+    .hero {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url(/img/hw8img/hero-img/desktop-hero-img.jpg);
+        }
+    @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(/img/hw8img/hero-img/desktop-hero-img@2x.jpg);
+        padding-top: 200px;
+        padding-bottom: 200px;
+
+    }
+
+}
+}
+    
+
+

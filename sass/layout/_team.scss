@@ -16,7 +16,7 @@
 }
 
 .teammate-description {
-    padding: 30px;
+    padding: 24px;
     text-align: center;
 }
 
@@ -28,4 +28,10 @@
 
 .speciality {
     margin-bottom: 16px;
+}
+
+@media screen and (min-width:1200px) {
+    .teammate-description {
+        padding: 30px;
+    }
 }

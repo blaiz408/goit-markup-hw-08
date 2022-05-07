@@ -1,5 +1,4 @@
 .list-margins {
-    display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
@@ -8,5 +7,22 @@
 .list-item-margins {
     margin-left: 30px;
     margin-top: 30px;
-    flex-basis: calc(100% / var(--card-item) - 30px);
+    // flex-basis: calc(100% / var(--card-item) - 30px);
+}
+@media screen and (min-width:768px) {
+    .list-margins {
+            display: flex;
+        }
+    
+    .list-item-margins {
+        margin-left: 30px;
+        margin-top: 30px;
+        flex-basis: calc(100% / var(--card-item-tablet) - 30px);
+    }
+    
+}
+@media screen and (min-width:1200px) {
+    .list-item-margins {
+        flex-basis: calc(100% / var(--card-item) - 30px);
+    }
 }

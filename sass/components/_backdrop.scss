@@ -23,8 +23,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 528px;
-    min-height: 580px;
+    width: 450px;
+    min-height: 609px;
     background-color: #ffffff;
     transition: transform 500ms linear;
     padding: 40px;
@@ -138,6 +138,8 @@
 
 .contact-form-checkbox-wrapper {
     margin-bottom: 30px;
+    font-size: 12px;
+
 }
 
 .checkbox-window {
@@ -148,8 +150,7 @@
     border-radius: 2px;
     cursor: pointer;
     content: '';
-    margin-right: 9px;
-    margin-left: 15px;
+    margin-right: 8px;
     justify-content: center;
     align-items: center;
     transition: background-color var(--transition);
@@ -168,4 +169,18 @@
         background-color: var(--accent-color);
         border-color: transparent;
     }
+}
+
+@media screen and (min-width:1200px) {
+    .modal {
+        max-width: 528px;
+        min-height: 580px;
+    }
+    .contact-form-checkbox-wrapper {
+        font-size: inherit;
+    }
+    .checkbox-window {
+        margin-left: 15px;
+    }
+    
 }

@@ -7,9 +7,10 @@
     color: var(--accent-color);
 }
 .header__logo {
-    margin-right: 92px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    margin-right: 88px;
+    @media screen and (min-width: 1200px) {
+        margin-right: 93px;
+    }
 }
 .header__logo_part {
     color: var(--secondary-text-color-theme-light);

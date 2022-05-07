@@ -19,3 +19,9 @@
 .advantages__description {
     font-style: normal;
 }
+
+@media screen and (max-width:767px) {
+    .advantages__tittle {
+        text-align: center;
+    }
+}
