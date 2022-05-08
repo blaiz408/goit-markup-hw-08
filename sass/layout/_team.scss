@@ -5,7 +5,6 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     background-color: #f5f4fa;
-    --card-item: 4;
 }
 
 .team-mate {
@@ -29,8 +28,16 @@
 .speciality {
     margin-bottom: 16px;
 }
+@media screen and (min-width:768px) {
+    .team {
+        --card-item: 2;
+    }
+}
 
 @media screen and (min-width:1200px) {
+    .team {
+        --card-item: 4;
+    }
     .teammate-description {
         padding: 30px;
     }

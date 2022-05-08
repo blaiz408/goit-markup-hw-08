@@ -1,13 +1,13 @@
 .clients {
     --card-item: 2;
 }
-.clients-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-.clients-list-item {
-    flex-basis: calc(100% / var(--card-item) - 30px);
-}
+// .clients-list {
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+// .clients-list-item {
+//     flex-basis: calc(100% / var(--card-item) - 30px);
+// }
 .clients-list-link {
     display: flex;
     justify-content: center;

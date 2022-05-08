@@ -1,6 +1,6 @@
-.advantages {
-    --card-item: 4;
-}
+// .advantages {
+//     --card-item: 4;
+// }
 
 .icon-container {
     display: flex;
@@ -22,5 +22,16 @@
 @media screen and (max-width:767px) {
     .advantages__tittle {
         text-align: center;
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    .advantages {
+            --card-item: 2
+    }
+}
+@media screen and (min-width: 1200px) {
+    .advantages {
+        --card-item: 4
     }
 }

@@ -1,3 +1,4 @@
+
 .service-list-item {
     position: relative;
 }
@@ -19,6 +20,7 @@
 }
 .service.section {
     padding-top: 0;
+    --card-item: 3;
 }
 @media screen and (max-width:1199px) {
     .service.section {
