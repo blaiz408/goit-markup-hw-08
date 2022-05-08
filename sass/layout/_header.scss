@@ -60,6 +60,8 @@
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
+        background-color: #ffffff;
+        z-index: 1;
     }
 
     .mobile-menu__container {
@@ -67,6 +69,7 @@
         padding-top: 48px;
         padding-bottom: 48px;
         padding-left: 40px;
+        
     }
 
     .mobile-menu__close-btn {
@@ -148,7 +151,6 @@
     }
     .mobile-menu {
         display: none;
-        z-index: 2;
     }
     .header-container {
         display: flex;

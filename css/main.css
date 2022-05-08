@@ -509,6 +509,8 @@ address {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    background-color: #ffffff;
+    z-index: 1;
   }
   .mobile-menu__container {
     position: relative;
@@ -590,7 +592,6 @@ address {
   }
   .mobile-menu {
     display: none;
-    z-index: 2;
   }
   .header-container {
     display: flex;
