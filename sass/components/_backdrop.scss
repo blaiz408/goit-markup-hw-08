@@ -23,7 +23,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     min-height: 609px;
     background-color: #ffffff;
     transition: transform 500ms linear;
@@ -139,7 +140,6 @@
 .contact-form-checkbox-wrapper {
     margin-bottom: 30px;
     font-size: 12px;
-
 }
 
 .checkbox-window {
