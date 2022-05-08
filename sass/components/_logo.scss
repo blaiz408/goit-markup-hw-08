@@ -19,6 +19,10 @@
 .footer-logo {
     display: block;
     margin-bottom: 20px;
+    text-align: center;
+    @media screen and (min-width: 1200px) {
+        text-align: start;
+        }
 }
 .footer-logo-part {
     color: var(--primary-text-color-theme-dark);

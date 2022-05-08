@@ -7,20 +7,22 @@
 .list-item-margins {
     margin-left: 30px;
     margin-top: 30px;
-    // flex-basis: calc(100% / var(--card-item) - 30px);
+    flex-basis: calc(100% / var(--card-item) - 30px);
 }
+
+// 768+
 @media screen and (min-width:768px) {
     .list-margins {
             display: flex;
         }
     
     .list-item-margins {
-        margin-left: 30px;
-        margin-top: 30px;
         flex-basis: calc(100% / var(--card-item-tablet) - 30px);
     }
     
 }
+
+// 1200+
 @media screen and (min-width:1200px) {
     .list-item-margins {
         flex-basis: calc(100% / var(--card-item) - 30px);

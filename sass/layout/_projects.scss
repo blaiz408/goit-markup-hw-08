@@ -24,7 +24,9 @@
 }
 
 .project-list-link {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     transition: box-shadow var(--transition);
 
     &:hover,
@@ -47,6 +49,7 @@
     border: 1px solid #eeeeee;
     border-top: none;
     background: #ffffff;
+    flex-grow: 1;
 }
 
 .project-tittle {

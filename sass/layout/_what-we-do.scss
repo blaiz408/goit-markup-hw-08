@@ -17,3 +17,12 @@
     justify-content: center;
     text-transform: uppercase;
 }
+.service.section {
+    padding-top: 0;
+}
+@media screen and (max-width:1199px) {
+    .service.section {
+        display: none;
+    }
+    
+}
