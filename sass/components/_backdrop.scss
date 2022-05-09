@@ -150,7 +150,7 @@
     border-radius: 2px;
     cursor: pointer;
     content: '';
-    margin-right: 8px;
+    margin-right: 4px;
     justify-content: center;
     align-items: center;
     transition: background-color var(--transition);
@@ -159,6 +159,7 @@
 .condition-link {
     color: var(--accent-color);
     text-decoration: underline;
+    white-space: nowrap;
 }
 .contact-form-checkbox {
     &:focus+label>.checkbox-window {
@@ -181,6 +182,7 @@
     }
     .checkbox-window {
         margin-left: 15px;
+        margin-right: 8px;
     }
     
 }

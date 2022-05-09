@@ -42,6 +42,9 @@ address {
     text-decoration: none;
     color: inherit;
 }
+.no-scroll {
+    overflow: hidden;
+}
 
 .section {
     padding-top: 60px;

@@ -67,6 +67,10 @@ address {
   color: inherit;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -233,21 +237,6 @@ address {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / var(--card-item) - 30px);
-}
-
-@media screen and (min-width: 768px) {
-  .list-margins {
-    display: flex;
-  }
-  .list-item-margins {
-    flex-basis: calc(100% / var(--card-item-tablet) - 30px);
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .list-item-margins {
-    flex-basis: calc(100% / var(--card-item) - 30px);
-  }
 }
 
 .main-tittle {
@@ -425,7 +414,7 @@ address {
   border-radius: 2px;
   cursor: pointer;
   content: '';
-  margin-right: 8px;
+  margin-right: 4px;
   justify-content: center;
   align-items: center;
   transition: background-color var(--transition);
@@ -434,6 +423,7 @@ address {
 .condition-link {
   color: var(--accent-color);
   text-decoration: underline;
+  white-space: nowrap;
 }
 
 .contact-form-checkbox:focus + label > .checkbox-window {
@@ -455,6 +445,7 @@ address {
   }
   .checkbox-window {
     margin-left: 15px;
+    margin-right: 8px;
   }
 }
 

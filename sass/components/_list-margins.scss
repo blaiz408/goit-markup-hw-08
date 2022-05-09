@@ -12,20 +12,13 @@
 }
 
 // 768+
-@media screen and (min-width:768px) {
-    .list-margins {
-            display: flex;
-        }
-    
-    .list-item-margins {
-        flex-basis: calc(100% / var(--card-item-tablet) - 30px);
-    }
-    
-}
+// @media screen and (min-width:768px) {
+
+// }
 
 // 1200+
-@media screen and (min-width:1200px) {
-    .list-item-margins {
-        flex-basis: calc(100% / var(--card-item) - 30px);
-    }
-}
+// @media screen and (min-width:1200px) {
+//     .list-item-margins {
+//         flex-basis: calc(100% / var(--card-item) - 30px);
+//     }
+// }
